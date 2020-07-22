@@ -12,7 +12,7 @@ end
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
-  hash[:key] = "hello"
+  hash[key] = "hello"
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   if hash["key"]
     hash["key"] = 1
